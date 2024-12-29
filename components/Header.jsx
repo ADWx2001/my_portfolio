@@ -11,7 +11,7 @@ function Header() {
         {/* logo */}
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            Asanka<span className="text-accent">.</span>
+            AD<span className="text-accent">Wx</span>2001
           </h1>
         </Link>
 
