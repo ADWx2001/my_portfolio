@@ -16,13 +16,13 @@ export default function Home() {
         xl:pt-8 xl:pb-24 "
         >
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl ">Software Engineering Undergraduate</span>
-            <h1 className="h1 ">
+            <span className="text-lg ">Software Engineering Undergraduate</span>
+            <h1 className="h1">
               Hello('World'); <br />I'm{" "} <br />
               <span className="text-accent">Asanka Dilshan</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              my description goes here
+              
             </p>
 
             {/* buttons socials */}
@@ -53,7 +53,7 @@ export default function Home() {
         </div>
       </div>
       <Status/>
-      <div>
+      <div className="hidden md:block">
         <ParalxEffect/>
       </div>
     </section>
