@@ -1,3 +1,6 @@
+"use client";
+
+import ParalxEffect from "@/components/ParalxEffect";
 import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Status from "@/components/Status";
@@ -50,6 +53,9 @@ export default function Home() {
         </div>
       </div>
       <Status/>
+      <div>
+        <ParalxEffect/>
+      </div>
     </section>
   );
 }
