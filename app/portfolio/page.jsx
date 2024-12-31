@@ -22,11 +22,13 @@ const projects = [
     category: "FullStack ",
     title: "Eaton Cleaning Web Application",
     description:
-      "A personal portfolio website to showcase my skills, projects, and experience.",
+      "A web application for a cleaning service located in Kurunegala, Sri Lanka",
     stack: [
-      { name: "React" },
+      { name: "MERN Stack" },
       { name: "Tailwind CSS" },
       { name: "Framer Motion" },
+      { name: "Redux" },
+      { name: "Firebase" },
     ],
     image: "/assets/work/proj1.png",
     live: "https://eatoncleaning.com/",
@@ -35,11 +37,11 @@ const projects = [
   {
     num: "02",
     category: "fullstack",
-    title: "E-Commerce App",
+    title: "Hostel Management Web Application",
     description:
-      "A full-stack application for online shopping with payment integration.",
-    stack: [{ name: "Next.js" }, { name: "Node.js" }, { name: "MongoDB" }],
-    image: "/images/ecommerce.png",
+      "A full-stack application for online hostel find and booking for uni students.",
+    stack: [{ name: "MERN Stack" }, { name: "Redux" }, { name: "Tailwind" }, { name: "Framer-Motin" }],
+    image: "/assets/work/proj2.png",
     live: "https://ecommerceapp.com",
     github: "https://github.com/username/ecommerce-app",
   },
