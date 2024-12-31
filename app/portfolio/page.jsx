@@ -42,42 +42,38 @@ const projects = [
       "A full-stack application for online hostel find and booking for uni students.",
     stack: [{ name: "MERN Stack" }, { name: "Redux" }, { name: "Tailwind" }, { name: "Framer-Motin" }],
     image: "/assets/work/proj2.png",
-    live: "https://ecommerceapp.com",
-    github: "https://github.com/username/ecommerce-app",
+    live: "",
+    github: "https://github.com/IT22102546/HostelManagement",
   },
   {
     num: "03",
-    category: "mobile",
-    title: "Fitness Tracker",
-    description: "A mobile application to track workouts and fitness goals.",
+    category: "Mobile Apps",
+    title: "Socially ",
+    description: "A social app connect, follow and share reels.",
     stack: [{ name: "Flutter" }, { name: "Firebase" }, { name: "Dart" }],
-    image: "/images/fitness.png",
-    live: "https://play.google.com/store/apps/details?id=com.fitness.tracker",
-    github: "https://github.com/username/fitness-tracker",
+    image: "/assets/work/proj3.png",
+    live: "",
+    github: "https://github.com/ADWx2001/flutter-app-practice/tree/main/socially_app/socially_app",
   },
   {
     num: "04",
-    category: "backend",
-    title: "API for a Blogging Platform",
-    description: "A RESTful API for managing blog posts, comments, and users.",
-    stack: [
-      { name: "Node.js" },
-      { name: "Express.js" },
-      { name: "PostgreSQL" },
-    ],
-    image: "/images/blog-api.png",
+    category: "Mobile App",
+    title: "Easy Weather",
+    description: "A Weather app to get real time weather by location.",
+    stack: [{ name: "Flutter" }, { name: "Weather API" }, { name: "Dart" }],
+    image: "/assets/work/proj4.png",
     live: "https://blogapi.com/docs",
     github: "https://github.com/username/blog-api",
   },
   {
     num: "05",
-    category: "frontend",
-    title: "Dashboard UI",
-    description: "A responsive dashboard for managing analytics and reports.",
-    stack: [{ name: "Vue.js" }, { name: "Vuetify" }, { name: "Chart.js" }],
-    image: "/images/dashboard.png",
-    live: "https://dashboardui.com",
-    github: "https://github.com/username/dashboard-ui",
+    category: "Mobile App",
+    title: "Maternity Mate",
+    description: "A mobile app that helps pregnant women to monitor sysptoms, kick count, meal plans exercise appointment and more.",
+    stack: [{ name: "React Native" }, { name: "Firebase" }, { name: "NativeWind" }],
+    image: "/assets/work/proj5.png",
+    live: "",
+    github: "https://github.com/IT22102546/Maternity-Care",
   },
 ];
 
@@ -136,7 +132,7 @@ function PortFolio() {
                     return (
                       <li key={index} className="text-xl text-accent ">
                         {item.name},{/* remove last comma */}
-                        {index !== project.stack.length - 1 && ","}
+                        {index !== project.stack.length - 1}
                       </li>
                     );
                   })}
