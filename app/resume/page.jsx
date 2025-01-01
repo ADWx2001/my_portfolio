@@ -58,21 +58,21 @@ const experience = {
   title: "My Experience",
   description: "A summary of my professional journey and accomplishments.",
   items: [
-    {
-      company: "Tech Solutions Ltd",
-      position: "Software Engineer",
-      duration: "Jan 2021 - Present",
-    },
-    {
-      company: "Creative Designs Co",
-      position: "UI/UX Designer",
-      duration: "Jun 2019 - Dec 2020",
-    },
-    {
-      company: "Mobile Innovators",
-      position: "Mobile App Developer",
-      duration: "Aug 2017 - May 2019",
-    },
+    // {
+    //   company: "Tech Solutions Ltd",
+    //   position: "Software Engineer",
+    //   duration: "Jan 2021 - Present",
+    // },
+    // {
+    //   company: "Creative Designs Co",
+    //   position: "UI/UX Designer",
+    //   duration: "Jun 2019 - Dec 2020",
+    // },
+    // {
+    //   company: "Mobile Innovators",
+    //   position: "Mobile App Developer",
+    //   duration: "Aug 2017 - May 2019",
+    // },
   ],
 };
 

@@ -40,7 +40,12 @@ const projects = [
     title: "Hostel Management Web Application",
     description:
       "A full-stack application for online hostel find and booking for uni students.",
-    stack: [{ name: "MERN Stack" }, { name: "Redux" }, { name: "Tailwind" }, { name: "Framer-Motin" }],
+    stack: [
+      { name: "MERN Stack" },
+      { name: "Redux" },
+      { name: "Tailwind" },
+      { name: "Framer-Motin" },
+    ],
     image: "/assets/work/proj2.png",
     live: "",
     github: "https://github.com/IT22102546/HostelManagement",
@@ -53,7 +58,8 @@ const projects = [
     stack: [{ name: "Flutter" }, { name: "Firebase" }, { name: "Dart" }],
     image: "/assets/work/proj3.png",
     live: "",
-    github: "https://github.com/ADWx2001/flutter-app-practice/tree/main/socially_app/socially_app",
+    github:
+      "https://github.com/ADWx2001/flutter-app-practice/tree/main/socially_app/socially_app",
   },
   {
     num: "04",
@@ -69,8 +75,13 @@ const projects = [
     num: "05",
     category: "Mobile App",
     title: "Maternity Mate",
-    description: "A mobile app that helps pregnant women to monitor sysptoms, kick count, meal plans exercise appointment and more.",
-    stack: [{ name: "React Native" }, { name: "Firebase" }, { name: "NativeWind" }],
+    description:
+      "A mobile app that helps pregnant women to monitor sysptoms, kick count, meal plans exercise appointment and more.",
+    stack: [
+      { name: "React Native" },
+      { name: "Firebase" },
+      { name: "NativeWind" },
+    ],
     image: "/assets/work/proj5.png",
     live: "",
     github: "https://github.com/IT22102546/Maternity-Care",
@@ -193,31 +204,36 @@ function PortFolio() {
               >
                 {projects.map((project, index) => {
                   return (
-                    <SwiperSlide key={index} className="w-full">
-                      <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
-                        {/* Overlay */}
-                        <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
-
-                        {/* Image */}
+                    <SwiperSlide key={index} className="w-full ">
+                      <div
+                        className="h-[460px] relative group flex justify-center items-center
+                      bg-pink-50/20"
+                      >
+                        {/* overlay */}
+                        <div
+                          className="absolute top-0 bottom-0 w-full h-full 
+                        bg-black/10 z-10"
+                        ></div>
+                        {/* image */}
                         <div className="relative w-full h-full">
                           <Image
-                            src={project.image} // Dynamic image source
-                            fill // Makes the image fill the parent container
-                            className="object-cover" // Ensures the image covers the container without distortion
-                            alt={project.name || "Project image"} // Adds alt text for accessibility
+                            src={project.image}
+                            fill
+                            className="object-cover"
+                            alt=""
                           />
                         </div>
                       </div>
                     </SwiperSlide>
                   );
                 })}
-
-                {/* Slider Buttons */}
+                {/* slider button  */}
                 <WorkSliderButton
                   containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] 
-        xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
-                  btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] 
-        w-[44px] h-[44px] flex justify-center items-center transition-all"
+                xl:bottom-0 z-20 w-full justify-between xl:w-max xl:justify-none"
+                  btnStyles="bg-accent
+                hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center
+                items-center transition-all "
                 />
               </Swiper>
             </div>
