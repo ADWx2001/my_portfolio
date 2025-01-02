@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { Button } from "./ui/button";
+import Link from "next/link";
 import {
   FaReact,
   FaNode,
@@ -76,9 +77,17 @@ const ParalxEffect = () => {
     >
       <h1 className="text-5xl font-bold text-center mb-4">My Tech Stack</h1>
       <div className="flex flex-wrap justify-center mb-8 gap-6">
-        <Button >Projects</Button>
-        <Button>Resume</Button>
-        <Button>Contact Me</Button>
+        <Link href="/portfolio">
+          <Button>Projects</Button>
+        </Link>
+
+        <Link href="/resume">
+          <Button href="/resume">Resume</Button>
+        </Link>
+
+        <Link href="/contact">
+          <Button href="/contact">Contact Me</Button>
+        </Link>
       </div>
       {techStackIcons.map(({ Icon, className }, index) => (
         <div
