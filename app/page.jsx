@@ -18,12 +18,11 @@ export default function Home() {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-lg ">Software Engineering Undergraduate</span>
             <h1 className="h1">
-              Hello('World'); <br />I'm{" "} <br />
+              Hello('World'); <br />
+              I'm <br />
               <span className="text-accent">Asanka Dilshan</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              
-            </p>
+            <p className="max-w-[500px] mb-9 text-white/80"></p>
 
             {/* buttons socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -32,9 +31,16 @@ export default function Home() {
                 className="uppercase flex items-center gap-2"
                 size="lg"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
+                <a
+                  href="/cv/cv_25.pdf"
+                  download="Asanka_Wickramasurendra.pdf"
+                  className="flex items-center gap-2"
+                >
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </a>
               </Button>
+
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
@@ -48,13 +54,13 @@ export default function Home() {
 
           {/* photo */}
           <div className="order-1 xl:order-none mb-8 xl:mb-0">
-            <Photo/>
+            <Photo />
           </div>
         </div>
       </div>
-      <Status/>
+      <Status />
       <div className="hidden md:block">
-        <ParalxEffect/>
+        <ParalxEffect />
       </div>
     </section>
   );
