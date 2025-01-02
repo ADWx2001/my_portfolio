@@ -4,21 +4,21 @@ import CountUp from "react-countup";
 
 const status = [
   {
-    num: 12,
+    num: 1,
     text: "Years of experience",
   },
   {
-    num: 12,
+    num: 7,
     text: "Projects completed",
   },
   {
     num: 8,
     text: "Technology mastered",
   },
-  {
-    num: 12,
-    text: "Code commits",
-  },
+  // {
+  //   num: 12,
+  //   text: "Code commits",
+  // },
 ];
 
 function Status() {

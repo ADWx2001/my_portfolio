@@ -15,6 +15,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderButton from "@/components/WorkSliderButton";
+import Ongoing from "@/components/Ongoing";
 
 const projects = [
   {
@@ -238,6 +239,7 @@ function PortFolio() {
               </Swiper>
             </div>
           </div>
+          <Ongoing />
         </div>
       </div>
     </motion.section>
